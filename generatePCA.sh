@@ -10,7 +10,7 @@ cd $DIR
 VCF=${VCF_FILENAME%.vcf.gz*}
 
 module load python/2.7.9
-echo "python ~/packages/gdc/vcf2eigenstrat.py -v $VCF_FILENAME -o $VCF"
+echo "python ${e2s_dir}/vcf2eigenstrat.py -v $VCF_FILENAME -o $VCF"
 python ${e2s_dir}/vcf2eigenstrat.py -v $VCF_FILENAME -o $VCF
 
 module load R/3.2.1
