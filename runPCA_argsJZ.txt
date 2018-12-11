@@ -1,0 +1,15 @@
+dir=
+out=
+pops=1kg_pops
+vcf=
+anno=
+now_id_pop=1khg_sample_pop.tsv
+e2s_dir=
+
+# dir=base directory
+# out=folder containing intermediary files and PCA output (make this before)
+# pops=text file list of populations to be used for determining eigenvectors
+# vcf=VCF containing 1KGP samples and samples to be projected
+# anno=annotations of samples in pro_vcf with first column having IDs
+# now_id_pop=sample ID and population of present-day humans as TSV
+# e2s_dir=folder containing vcf2eigenstrat.py
